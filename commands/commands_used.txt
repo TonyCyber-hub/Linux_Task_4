@@ -1,0 +1,56 @@
+
+  1  pwd
+  2  ls -la
+  3  cd /tmp
+  4  mkdir practice_dir
+  5  cd ~
+  6  touch demo.txt
+  7  echo "Linux is powerful" > demo.txt
+  8  nano demo.txt
+  9  cat demo.txt
+  10  touch script.sh
+  11  echo "Hello Linux" > script.sh
+  12  ls -l script.sh
+  13  chmod 764 script.sh
+  14  ls -l script.sh
+  15  ./script.sh
+  16  cp demo.txt /tmp/practice_dir 
+  17  ls /tmp/practice_dir
+  18  mv script.sh /tmp/practice_dir
+  19  ls /tmp/practice_dir
+  20  mv demo.txt notes.txt
+  21  ls
+  22  rm notes.txt
+  23  ls
+  24  whoami
+  25  who
+  26  w
+  27  sudo adduser student1
+  28  sudo usermod -aG sudo student1
+  29  id student1
+  30  sleep 500 &
+  31  jobs
+  32  fg
+  33  ps aux | grep sleep
+  34  kill 73629
+  35  ps aux | grep sleep
+  36  df -h
+  37  free -h
+  38  find ~ -name "*.sh"
+  39  grep "Linux" /tmp/practice_dir/*.txt
+  40  mkdir backup_test
+  41  cd backup_test
+  42  touch book.txt run.txt tony.txt
+  43  ls
+  44  tar -cvf backup_tar.tar  backup_test
+  45  tar -czvf backup_tar.tar  backup_test
+  46  tar -xzvf backup.tar.gz -C  test_extraction
+  47  ip a
+  48  pind -c 3 google.com
+  49  ping -c 3 google.com
+  50  ss -tulnp
+  51  hostname
+  52  dmesg | tail -10
+  53  dmesg | tail -f
+  54  uptime
+  55  history > commands_used.txt

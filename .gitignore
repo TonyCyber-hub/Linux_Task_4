@@ -1,0 +1,23 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and temporary output
+*.log
+*.tmp
+
+# Generated lab artifacts that may be recreated
+restore_test/
+backup_test/
+
+# Keep empty evidence directories in Git
+!screenshots/.gitkeep
+!evidence/.gitkeep
+!backup/.gitkeep
+
+# Local/editor configuration
+.vscode/
+.idea/

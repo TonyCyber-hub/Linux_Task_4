@@ -1,0 +1,64 @@
+.
+├── backup.tar.gz
+├── backup_tar.tar
+├── backup_test
+│   ├── backup_tar.tar
+│   ├── book.txt
+│   ├── run.txt
+│   └── tony.txt
+├── book.sh
+├── commands_used.txt
+├── Desktop
+├── digital_FF
+│   ├── aa_decrypted.txt
+│   ├── asymemetric_encrypted.gpg
+│   ├── confidential.txt.gpg
+│   ├── decrypted.txt
+│   └── public_key.asc
+├── Documents
+├── Downloads
+├── Hashing
+│   ├── file01.txt
+│   ├── file1.hash
+│   └── file1.txt
+├── Music
+├── Pictures
+├── practice_dir
+│   └── tony_dir
+│       ├── data.txt
+│       └── items.txt
+├── Projects
+├── Public
+├── Ray_Encrypt
+│   ├── iv.bin
+│   ├── key.bin
+│   ├── tony.txt
+│   ├── tony.txt.decrypt
+│   └── tony.txt.encrypt
+├── run.sh
+├── steganography-lab
+│   ├── extracted
+│   │   ├── cover.jpg
+│   │   └── password
+│   ├── secret.txt
+│   └── tool
+│       └── extracted
+│           ├── books.txt
+│           ├── cover.jpg
+│           ├── info.txt
+│           ├── logs.txt
+│           └── play_list
+├── Templates
+├── test_extraction
+│   └── backup_test
+│       ├── backup_tar.tar
+│       ├── book.txt
+│       ├── run.txt
+│       └── tony.txt
+├── Tony.pcap
+├── tony.sh
+├── tony.sh.save
+├── tree_output.txt
+└── Videos
+
+23 directories, 39 files
